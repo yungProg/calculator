@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-wrapper">
+        <div class="display-wrapper">
+            <input type="text" value="0" class="display" disabled>
+        </div>
+        <div class="button-wrapper">
+            <div class="row row1">
+                <button type="button" class="grey" id="clear">AC</button>
+                <button type="button" class="grey" id="plusOrNegative">+/-</button>
+                <button type="button" class="grey" id="percentage">%</button>
+                <button type="button" value="/" class="yellow operator">÷</button>
+            </div>
+            <div class="row row2">
+                <button type="button" class="dark number">7</button>
+                <button type="button" class="dark number">8</button>
+                <button type="button" class="dark number">9</button>
+                <button type="button" value="*" class="yellow operator">x</button>
+            </div>
+            <div class="row row3">
+                <button type="button" class="dark number">4</button>
+                <button type="button" class="dark number">5</button>
+                <button type="button" class="dark number">6</button>
+                <button type="button" value="-" class="yellow operator">-</button>
+            </div>
+            <div class="row row4">
+                <button type="button" class="dark number">1</button>
+                <button type="button" class="dark number">2</button>
+                <button type="button" class="dark number">3</button>
+                <button type="button" value="+" class="yellow operator">+</button>
+            </div>
+            <div class="row row5">
+                <button type="button" class="dark number zero">0</button>
+                <button type="button" class="dark" id="decimalPoint">.</button>
+                <button type="button" class="yellow" id="equal">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
